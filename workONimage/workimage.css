@@ -1,0 +1,42 @@
+
+.row > .column {
+    padding: 10px;
+    padding: 0 8px;
+  }
+  
+  
+  
+  .column {
+   
+    width: 70%;
+  }
+
+  .active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.m .close {
+    position: absolute;
+    top: 8%;
+    left: 96%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
